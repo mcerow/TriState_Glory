@@ -72,9 +72,10 @@ Our last step was to forecast through 2024 and calculate the return on investeme
     
 The top 3 zip codes for New Jersey we looks at are 07302 Jersey City, 07030 Hoboken, 07756 Ocean Grove. Jersey City and Hoboken both have values upwards of $1 million. Ocean Grove is a shore town where the average value was below $500k for most of the time period we were looking at. While Hoboken boasts the highest values overall, Jersey City actually has the highest ROI. It's almost a steal, if a cool $1.8 million is a steal.
 
-![](images/jersey_city_predict.png) ![](images/jersey_city_roi.png)
+![](images/jersey_city_predict.png) 
+![](images/jesrey_city_roi.png)
 
-We modeled our New Jersey zip codes the same. We looked at both AIC and RMSE and picked the most accurate model by minimizing RMSE. Interstingly, our Ocean Grove model undervalued the future forecasts of home values. One reason we suspect this is that our test data, the most recent data, picked up significantly to where our training data had left off. The area saw a rise in value the deviated from the training data and our model wasn't able to see it. We'd like to further investigate Ocean Grove specifically to see if we can better predict values here.
+We modeled our New Jersey zip codes the same. We looked at both AIC and RMSE and picked the most accurate model by minimizing RMSE. Interstingly, our Ocean Grove model undervalued the future forecasts of home values. One reason we suspect this is that our test data, the most recent data, picked up significantly to where our training data had left off. The area saw a rise in value the deviated from the training data and our model wasn't able to see it. We'd like to further investigate Ocean Grove specifically to see if we can better predict values here. Both Jersey City & Hoboken predict the continued uptick in value that actualized from 2015-2018.
 
 ## Connecticut Stationarity Tests & Modeling
 
