@@ -24,16 +24,19 @@ In this repo, you will find our jupyter notebooks, image folder, and csv files u
 To begin, we first had to settle on the zip codes we would be using. We loaded in a csv file for the Zillow data from 1996 to 2018. We added the ROI column which became our measure for "best" zip code. At first we saw that the top 5 were mostly in Brooklyn with Jersey City creeping into the top 5. To offer some more variety, we decided to look at the top 3 zip codes in each state. We ultimately will investigate:
 
   New York:
+  
     11211 Williamsburg
     11222 Greenpoint
     11216 Bedford Stuyvesant
     
   New Jersey:
+  
     07302 Jersey City
     07030 Hoboken
     07756 Ocean Grove
     
   Connecticut:
+  
     06820 Darien
     06068 Salisbury
     06793 Washington
